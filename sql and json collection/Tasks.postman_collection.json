@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "3699a127-d988-49bc-bd56-edbf5e42cce4",
+		"name": "Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40292111",
+		"_collection_link": "https://solar-comet-244603.postman.co/workspace/Astrotalk~df87111a-6acd-4630-9561-61459a7905b1/collection/40292111-3699a127-d988-49bc-bd56-edbf5e42cce4?action=share&source=collection_link&creator=40292111"
+	},
+	"item": [
+		{
+			"name": "add user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "waseem akram",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "waseem@yopmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "9797885522",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "test sample",
+							"type": "text"
+						},
+						{
+							"key": "role_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "profile_image",
+							"type": "file",
+							"src": "/D:/waseem akram/Avangers/Avangers/1717325.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/users",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
