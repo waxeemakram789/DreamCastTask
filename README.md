@@ -27,9 +27,9 @@ Setup Instructions
 
 Clone the Repository
 
-git clone <repository-url>
+git clone repository-url
 
-Replace <repository-url> with the actual URL of your repository.
+Replace repository-url with the actual URL of your repository.
 
 Install Dependencies
 
